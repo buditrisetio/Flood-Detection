@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+   background-image: url(img/wavebackground.jpg);
+   background-color:rgb(255, 255, 255);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+ 
+
+}
+
+nav {
+   
+    background-color: rgb(99, 205, 199);
+    background-repeat: no-repeat !important; 
+    justify-content: space-around;
+    text-align:left;
+    height: 50px;
+    color: white;
+    align-items: center;
+    
+    
+
+
+}
+
+
+.logo {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family:Calibri;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-size: small;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tag {
+    text-align: center;
+    font-size:10px;
+}
+
+
+.kategori {
+    background-color: white;
+    background-image:url(img/desain2.jpg);
+    flex-wrap: wrap;
+    padding-top: 10px;
+    font-size: 18px;
+    border: 2px ;
+    border-radius: 5px;
+    padding: 20px;
+   
+}
+
+.textkategori {
+    text-align: left;
+    padding: 1px;
+    margin-left: 50px;
+    
+}
+
+.container1 {
+ 
+ 
+    background-repeat: no-repeat !important; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0,);
+    box-shadow: inset;
+    border: 2px ;
+    border-radius: 5px;
+}
+
+.tombol {
+    background-color: rgb(99, 205, 199);
+    text-align: center;
+    color: white;
+
+}
+
+.cardname1 {
+    background-color: aliceblue;
+    width: 46%;
+    padding: 20px;
+    margin: 16px;
+    justify-self: start;
+    font-size: 15px;
+    font-family:sans-serif;
+    color: rgb(99, 205, 199);
+    text-align: center;
+    border: 2px ;
+    border-radius: 5px;
+  
+}
+.cardname2 {
+    background-color: aliceblue;
+    width: 46%;
+    padding: 20px;
+    margin: 16px;
+    justify-self: start;
+    font-size: 15px;
+    font-family:sans-serif;
+    color:rgb(243, 51, 51);
+    text-align: center;
+    border: 2px ;
+    border-radius: 5px;
+    
+  
+}
+
+.note {
+    background-image:url(img/note.jpg);
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    
+    
+}
+
+.panel {
+    border-color: rgb(99, 205, 199);
+}
